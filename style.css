@@ -1,0 +1,60 @@
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#f2f2f2;
+}
+
+.clock{
+width:300px;
+height:300px;
+border:8px solid black;
+border-radius:50%;
+position:relative;
+background:white;
+}
+
+.number{
+position:absolute;
+font-size:20px;
+font-weight:bold;
+}
+
+.n12{top:5px; left:140px;}
+.n1{top:25px; right:60px;}
+.n2{top:70px; right:20px;}
+.n3{top:135px; right:5px;}
+.n4{bottom:70px; right:20px;}
+.n5{bottom:25px; right:60px;}
+.n6{bottom:5px; left:145px;}
+.n7{bottom:25px; left:60px;}
+.n8{bottom:70px; left:20px;}
+.n9{top:135px; left:5px;}
+.n10{top:70px; left:20px;}
+.n11{top:25px; left:60px;}
+
+.hand{
+position:absolute;
+bottom:50%;
+left:50%;
+transform-origin:bottom;
+}
+
+.hour{
+width:6px;
+height:70px;
+background:black;
+}
+
+.minute{
+width:4px;
+height:100px;
+background:blue;
+}
+
+.second{
+width:2px;
+height:120px;
+background:red;
+}
